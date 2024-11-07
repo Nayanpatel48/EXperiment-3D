@@ -5,11 +5,11 @@ import { createRoot } from 'react-dom/client'
 import {createBrowserRouter, createRoutesFromElements, RouterProvider} from "react-router-dom"
 import './index.css'
 import Layout from './Layout'
-import About from './components/About/About'
+import About from './components/Demo1/Demo1'
 import Home from './components/Home/Home'
-import Contact from './components/Contact/Contact'
+import Contact from './components/Demo2/Demo2'
 import { Route } from 'react-router-dom'
-import User from './components/User/User'
+import User from './components/Demo4/Demo4'
 
 //old approach
 // const router = createBrowserRouter([
